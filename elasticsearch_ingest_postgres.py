@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 import math
-import argparse
 import traceback
 
 import psycopg2
