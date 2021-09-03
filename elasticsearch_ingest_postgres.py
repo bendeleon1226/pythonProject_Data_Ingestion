@@ -37,7 +37,7 @@ def PGDatabaseConn():
 def ESConn():
     print ("Conecting to elasticsearch")
     try:
-        es = elasticsearch.Elasticsearch(hhost = "localhost",
+        es = elasticsearch.Elasticsearch(host = "localhost",
                                          port = 9200)
 
     except Exception:
